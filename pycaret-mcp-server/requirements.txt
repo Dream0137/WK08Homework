@@ -1,0 +1,7 @@
+pycaret>=3.0.0
+pandas>=2.0.0
+mcp>=1.0.0
+fastmcp>=1.0.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.12.0

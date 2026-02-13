@@ -2,7 +2,7 @@
 from pycaret.datasets import get_data
 data = get_data('diabetes')
 
-from pycaret.classification import *
+from pycaret.classification import setup, compare_models, evaluate_model, plot_model, predict_model, save_model, load_model
 s = setup(data, target = 'Class variable', session_id = 123)
 
 from pycaret.classification import ClassificationExperiment
